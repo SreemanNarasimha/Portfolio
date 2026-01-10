@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreeman Narasimha | Full Stack & Embedded Engineer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="scroll-progress"></div>
+    <div class="bg-gradient"></div>
+    <div class="bg-noise"></div>
+    <!-- Circuit Pattern Overlay -->
+    <div class="bg-circuit"></div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <a href="#hero" class="logo-img">
+                <img src="logo1.png" alt="SN Logo" style="height:60px;width: auto;">
+            </a>
+
+            <div class="nav-links">
+                <a href="#hero" class="active">About</a>
+                <a href="#about">Skills</a>
+                <a href="#projects">Work</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="My_Resume.pdf" download class="resume-btn">
+                <span>Resume</span>
+                <i class="fas fa-download"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="status-pill fade-in-up">
+                    <span class="status-dot"></span>
+                    Available for Freelancing & Opportunities
+                </div>
+                <h1 class="hero-title">
+                    <span class="block fade-in-up delay-1">Architecting</span>
+                    <span class="block fade-in-up delay-2">Silicon & <span class="gradient-text">Software.</span></span>
+                </h1>
+                <p class="hero-desc fade-in-up delay-3">
+                    Hi, I'm <strong>Sreeman Narasimha</strong>. An Embedded Systems & VLSI enthusiast with full-stack
+                    capabilities, bridging the gap between hardware logic and modern web applications.
+                </p>
+                <div class="hero-actions fade-in-up delay-4">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Let's Connect</a>
+                </div>
+
+                <!-- Stats / Quick Info -->
+                <div class="hero-stats fade-in-up delay-5">
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Major Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">VLSI</span>
+                        <span class="stat-label">Specialist</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">Full Stack</span>
+                        <span class="stat-label">Developer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-in-left delay-3">
+                <div class="profile-card-3d">
+                    <div class="card-inner">
+                        <img src="profile.png" alt="Sreeman Narasimha" class="profile-img">
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="fas fa-microchip"></i> VLSI
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fas fa-memory"></i> Embedded
+                    </div>
+                    <div class="floating-badge badge-3">
+                        <i class="fab fa-react"></i> React
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bento Grid (Skills) -->
+    <section id="about" class="bento-section">
+        <div class="container">
+            <h2 class="section-heading fade-on-scroll">The <span class="highlight">Toolkit</span></h2>
+
+            <div class="bento-grid-refined">
+                <!-- Tile 1: Embedded Stack -->
+                <div class="bento-card fade-on-scroll delay-1">
+                    <h3>Embedded & VLSI</h3>
+                    <div class="tech-tags">
+                        <span>Verilog</span>
+                        <span>ModelSim</span>
+                        <span>STM32</span>
+                        <span>FPGA</span>
+                        <span>Arduino</span>
+                        <span>Sensors</span>
+                    </div>
+                    <i class="fas fa-microchip card-bg-icon"></i>
+                </div>
+
+                <!-- Tile 2: Core Stack -->
+                <div class="bento-card fade-on-scroll delay-2">
+                    <h3>Web & Software</h3>
+                    <div class="tech-tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>Python (NLP)</span>
+                        <span>SQL</span>
+                    </div>
+                    <i class="fas fa-code card-bg-icon"></i>
+                </div>
+
+                <!-- Tile 3: Problem Solving -->
+                <div class="bento-card fade-on-scroll delay-3">
+                    <div class="flex-center">
+                        <i class="fas fa-brain card-icon-large"></i>
+                        <h3>Problem Solving</h3>
+                    </div>
+                </div>
+
+                <!-- Tile 4: Languages -->
+                <div class="bento-card fade-on-scroll delay-4">
+                    <h3>Multilingual</h3>
+                    <p class="small-text">English, Hindi, Telugu, Tamil, Kannada</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-heading fade-on-scroll">Featured <span class="highlight">Projects</span></h2>
+
+            <div class="projects-list">
+
+                <!-- Project 1: ALU -->
+                <div class="project-card fade-on-scroll">
+                    <div class="project-image-wrapper">
+                        <img src="project1.png" alt="Low-Power ALU Design" class="project-img">
+                        <div class="project-overlay">
+                            <button class="view-project-btn" onclick="openModal('modal1')">View Details</button>
+                        </div>
+                        <div class="card-badge">VLSI</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Low-Power ALU Design</h3>
+                        <p>16-bit ALU in Verilog with clock gating for power optimization.</p>
+                        <div class="project-tags-mini">
+                            <span>Verilog</span> <span>ModelSim</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Safe -->
+                <div class="project-card fade-on-scroll">
+                    <div class="project-image-wrapper">
+                        <img src="project2.png" alt="Digital Safe" class="project-img">
+                        <div class="project-overlay">
+                            <button class="view-project-btn" onclick="openModal('modal2')">View Details</button>
+                        </div>
+                        <div class="card-badge">Embedded</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Digital Safe System</h3>
+                        <p>Encrypted PIN security system using STM32, AES encryption, and EEPROM.</p>
+                        <div class="project-tags-mini">
+                            <span>STM32</span> <span>C</span> <span>AES</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Resume Analyzer -->
+                <div class="project-card fade-on-scroll">
+                    <div class="project-image-wrapper">
+                        <img src="project3.png" alt="Resume Analyzer" class="project-img">
+                        <div class="project-overlay">
+                            <div class="overlay-btns">
+                                <button class="view-project-btn" onclick="openModal('modal3')">View Details</button>
+                                <a href="https://mswnstmzibmrofx3olaynn.streamlit.app/" target="_blank"
+                                    class="view-demo-link">Demo <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-badge">AI / ML</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Resume Analyzer</h3>
+                        <p>NLP-powered tool to analyze resumes and guide job seekers.</p>
+                        <div class="project-tags-mini">
+                            <span>Python</span> <span>NLP</span> <span>React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Expense Tracker -->
+                <div class="project-card fade-on-scroll">
+                    <div class="project-image-wrapper">
+                        <img src="project4.png" alt="Expense Tracker" class="project-img">
+                        <div class="project-overlay">
+                            <button class="view-project-btn" onclick="openModal('modal4')">View Details</button>
+                        </div>
+                        <div class="card-badge">Full Stack</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Expense Analytics</h3>
+                        <p>End-to-end finance tracker with budget visualization and auth.</p>
+                        <div class="project-tags-mini">
+                            <span>Java</span> <span>Spring</span> <span>React</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey / Achievements Section -->
+    <section id="journey" class="journey-section">
+        <div class="container">
+            <h2 class="section-heading fade-on-scroll">My <span class="highlight">Journey</span></h2>
+
+            <div class="timeline">
+                <div class="timeline-item fade-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025 - Present</div>
+                        <h3>Kodnest Trainee</h3>
+                        <p>Honing full-stack development skills and mastering Java, Spring, and modern web technologies.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2025</div>
+                        <h3>SIH 24-HOUR HACKATHON</h3>
+                        <p>Constructed a working prototype in a 24-hour hackathon.</p>
+                        <h3>12-Hour Hackathon</h3>
+                        <p>Partially constructed a working prototype in a 12-hour hackathon.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024</div>
+                        <h3>NPTEL</h3>
+                        <p> Certified in "Digital CMOS Design" by NPTEL</p>
+                        <p> Certified in "Embedded System Design" by NPTEL.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper fade-on-scroll">
+                <h2>Ready to build something <br> <span class="gradient-text">extraordinary?</span></h2>
+
+                <!-- Include Font Awesome (CDN link) -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+                <div class="social-links">
+                    <!-- Email Icon -->
+                    <a href="mailto:narasimha.nallanchakravarthula@gmail.com" class="social-icon email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                    <!-- Mobile Icon -->
+                    <a href="tel:+919059715721" class="social-icon phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sreeman-narasimha-1b14a2277/" target="_blank"
+                        class="social-icon linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/SreemanNarasimha" target="_blank" class="social-icon github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+                <footer class="footer">
+                    <p>&copy; 2025 Designed by Sreeman Narasimha. All rights reserved.</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <!-- Modal 1 -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="project1.png" alt="ALU Design">
+            <div class="modal-text">
+                <h2>Low-Power ALU Design</h2>
+                <p>Designed a 16-bit Arithmetic Logic Unit (ALU) using Verilog. This system efficiently performs
+                    operations like addition, subtraction, AND, and OR. <br><br>
+                    <strong>Key Innovation:</strong> Implemented Look-Ahead Carry Adder (CLA) for speed and Clock Gating
+                    logic to significantly reduce power consumption during idle states.
+                </p>
+                <div class="modal-tags">
+                    <span>Verilog</span> <span>ModelSim</span> <span>Xilinx</span> <span>FPGA</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="project2.png" alt="Digital Safe">
+            <div class="modal-text">
+                <h2>Digital Safe with Encrypted PIN</h2>
+                <p>A high-security digital safe system powered by STM32. <br><br>
+                    The user inputs a PIN via a matrix keypad. The microcontroller encrypts this input using the AES
+                    algorithm and validates it against the stored hash in the EEPROM. Successful validation triggers a
+                    servo motor to unlock the safe, while repeated failures initiate a temporary lockout.</p>
+                <div class="modal-tags">
+                    <span>STM32</span> <span>Embedded C</span> <span>AES Encryption</span> <span>EEPROM</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="project3.png" alt="Resume Analyzer">
+            <div class="modal-text">
+                <h2>AI-Powered Resume Analyzer</h2>
+                <p>A smart web application that bridges the gap between job seekers and descriptions.<br><br>
+                    Built with Python (backend) and React (frontend), it uses the spaCy NLP library to parse resumes
+                    (PDF/Docx). It extracts key skills and uses cosine similarity (TF-IDF) to match them against job
+                    descriptions, providing a suitability score and improvement suggestions.</p>
+                <div class="modal-tags">
+                    <span>Python</span> <span>React</span> <span>NLP (spaCy)</span> <span>Scikit-learn</span>
+                </div>
+                <a href="https://mswnstmzibmrofx3olaynn.streamlit.app/" target="_blank" class="live-demo-btn">
+                    <span>Live Demo</span>
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="project4.png" alt="Expense Tracker">
+            <div class="modal-text">
+                <h2>Expense Tracker with Analytics</h2>
+                <p>A complete financial management solution.<br><br>
+                    Users can securely log in, track daily expenses, categorize spending, and view visual analytics
+                    (Pie/Bar charts) of their financial habits. The backend is powered by Spring Boot with MySQL for
+                    reliable data persistence.</p>
+                <div class="modal-tags">
+                    <span>Java Spring Boot</span> <span>React.js</span> <span>MySQL</span> <span>Chart.js</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
